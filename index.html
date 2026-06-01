@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Portfolio</a>
+      <button class="menu-toggle" aria-label="Open navigation">Menu</button>
+      <nav class="site-nav">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">website project</p>
+        <h1>Hi, I&rsquo;m [Bhavitha Kandi]</h1>
+        <p>I build simple and clean websites using HTML, CSS, and JavaScript.</p>
+        <a href="#projects" class="button">View Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I am passionate about web development and enjoy building responsive, user-friendly websites. I like turning ideas into interactive web applications using HTML, CSS, JavaScript, and modern technologies while continuously learning new skills and improving my problem-solving abilities</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Semantic structure for every page.</p>
+          </div>
+          <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Responsive layouts and visuals.</p>
+          </div>
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Interactive behavior and form handling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Landing Page</h3>
+            <p>A project with hero, features, and contact section.</p>
+          </article>
+          <article class="project-card">
+            <h3>Portfolio Site</h3>
+            <p>A clean portfolio to show skills and work samples.</p>
+          </article>
+          <article class="project-card">
+            <h3>Todo App</h3>
+            <p>An interactive task list built with JavaScript.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education-section">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="project-card">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>Completed coursework in web development, programming, and UI/UX design.</p>
+        </div>
+        <div class="project-card" style="margin-top:1rem;">
+          <h3>Web Development Bootcamp</h3>
+          <p>Hands-on training in HTML, CSS, JavaScript, and responsive design.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume-section">
+      <div class="container">
+        <h2>Resume</h2>
+        <p>Download my resume to see my experience, skills, and completed projects in detail.</p>
+        <a href="#" class="button">Download Resume</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Send a message and let me know what you'd like to build together.</p>
+        <form id="contact-form" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project"></textarea>
+
+          <button type="submit" class="button">Send Message</button>
+          <p class="form-status" id="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Junior Web Developer. Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
